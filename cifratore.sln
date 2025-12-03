@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36717.8 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cifratore", "cifratore\cifratore.csproj", "{197B7484-D224-42F5-A663-07DDDB7E5376}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{197B7484-D224-42F5-A663-07DDDB7E5376}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{197B7484-D224-42F5-A663-07DDDB7E5376}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{197B7484-D224-42F5-A663-07DDDB7E5376}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{197B7484-D224-42F5-A663-07DDDB7E5376}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {365D571A-105C-470C-93ED-BD9233940912}
+	EndGlobalSection
+EndGlobal
