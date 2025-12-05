@@ -1,7 +1,51 @@
-﻿namespace cifratore
+namespace cifratore
 {
     internal class Program
     {
+        static char [] transposizionecontr(char[]v2,int k){
+            
+            char[] v4= new char (v2.lenght)
+            
+             for(int n = 0; n < v2.Length; n++)
+            {
+                v4[n] = v2[(n-k )% v2.Length];
+            }
+            return v4;
+        }
+        
+        static char []  controcesare(char[]alf,int k,char[] v4){
+            
+            char[]v3=new char (v4.Length);
+            
+            for(int i = 0;i < v4.Length; i++)
+            {
+                int rest = 0;
+                int y = 0;
+                bool t= true;
+                while (t==true)
+                {
+                    if (v4[i] == alf[y])
+                    {
+                        if (y + k > alf.Length)
+                        {
+                            rest = j + k - alf.Length;
+                            v3[i] = alf[rest];
+                        }
+                        else
+                        {
+                            v3[i] = alf[y - k];
+                            
+                        }
+                        t = false;
+                    }
+                    y++;
+                }
+                t = true;
+            }
+            return v3;
+            
+        }
+        
         static char [] cesare(char[]alf,int k, char[] v)
         {
 
